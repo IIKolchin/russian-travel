@@ -1,0 +1,278 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+.page {
+background: #2A2C2F;
+color: #fff;
+max-width: 1280px;
+margin: 0 auto;
+font-family: 'inter', sans-serif;
+
+}
+
+.page__section_size_large {
+  max-width: 1280px;
+  padding: 0 48px;
+}
+
+.page__section_size_small {
+  max-width: 1280px;
+  padding: 0 148px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+ }
+
+
+
+ .header__logo {
+  width: 176px;
+  height: 52px;
+ }
+
+.header__lang-link {
+  display: flex;
+  list-style: none;
+
+  font-size: 24px;
+line-height: 28px;
+margin: 18px 0 6px;
+
+}
+
+.header__lang-link-ru {
+  width: 29px;
+  height: 28px;
+  color: #fff;
+
+}
+
+.header__lang-link-en {
+  width: 29px;
+  height: 28px;
+  color: #fff;
+  margin-left: 18px;
+  text-decoration: none;
+
+}
+
+.lead {
+  box-sizing: border-box;
+}
+
+.lead__title {
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+text-align: center;
+margin: 56px 132px 0;
+}
+
+
+.lead__subtitle {
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+margin: 32px 172px 64px;
+}
+
+.lead__caption {
+  font-size: 10px;
+line-height: 14px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+margin: 8px 0 0;
+}
+
+.intro {
+  max-width: 690px;
+  margin-top: 92px;
+}
+.intro__title {
+font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+margin: 0;
+}
+
+.intro__text {
+  font-weight: normal;
+font-size: 16px;
+line-height: 163%;
+margin: 40px 0 33px;
+}
+
+.intro__list {
+  font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+margin: 0;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  margin: 92px 0 0;
+  padding-bottom: 12px;
+}
+
+.photo-grid__item {
+  width: 284px;
+height: 213px;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: auto 49.187%;
+  grid-template-rows: auto 2fr;
+  gap: 48px 40px;
+  margin: 80px 0 0;
+
+
+}
+
+.place__title {
+  font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+margin: 0;
+align-self: end;
+}
+
+.place__image {
+grid-row-start: 2;
+
+grid-column-start: 1;
+grid-column-end: 2;
+}
+
+.place__website {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.place__url-heading {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  margin: 0 0 12px;
+  color: #AAA
+}
+
+.place__link {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+.place__paragraf {
+  font-weight: normal;
+font-size: 18px;
+line-height: 163%;
+
+grid-row-start: 2;
+grid-column-start: 2;
+margin: 0;
+}
+
+.place__paragraf-text {
+  margin: 0;
+}
+
+.place__paragraf-text:first-of-type {
+margin-bottom: 26px;
+}
+
+.cover {
+  min-height: 740px;
+  margin: 92px 48px 0;
+  background-image: url(./images/cover-trains.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.cover__overlay {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  }
+
+
+.cover__title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+  padding: 0 312px 32px;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.cover__subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  padding: 0 412px 0;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 92px 0 24px;
+}
+
+
+.footer__link {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__links {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 18px;
+  font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+}
+
+.footer__copyright {
+  margin: 0;
+  font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+}
