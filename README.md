@@ -4,4 +4,4 @@
 
 В проекте применяются технологии построения сеток с помощью "Grid Layout", а также "flex". Использованы в некоторых местах задание размеров в относительных величинах.
 
-https://github.com/IIKolchin/russian-travel.git
+https://iikolchin.github.io/russian-travel/
