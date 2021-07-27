@@ -4,7 +4,7 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
   margin: 92px 0 0;
-  padding-bottom: 12px;
+  padding: 0 48px 12px;
 }
 
 @media (max-width: 1024px) {
@@ -19,12 +19,16 @@
     margin-top: 88px;
     gap: 16px;
     padding-bottom: 15px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media (max-width: 425px) {
   .photo-grid {
     margin-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
