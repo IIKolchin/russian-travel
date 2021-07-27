@@ -1,0 +1,16 @@
+.footer__list {
+  margin: 0;
+}
+
+@media (max-width: 425px) {
+  .footer__list {
+    margin-bottom: 26px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .footer__list {
+    margin-bottom: 32px;
+  }
+}

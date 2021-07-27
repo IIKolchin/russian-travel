@@ -1,0 +1,30 @@
+.place__paragraf {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .place__paragraf {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__paragraf {
+    grid-row-start: auto;
+    grid-column-start: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraf {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

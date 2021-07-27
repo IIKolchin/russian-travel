@@ -1,0 +1,20 @@
+.place__paragraf-text {
+  margin: 0;
+}
+
+.place__paragraf-text:nth-child(2) {
+  margin-top: 26px;
+}
+
+@media (max-width: 1024px){
+  .place__paragraf-text:nth-child(2) {
+    margin-top: 27px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .place__paragraf-text:nth-child(2) {
+    margin-top: 25px;
+  }
+}
