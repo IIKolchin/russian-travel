@@ -1,4 +1,33 @@
 .cover__link {
   text-decoration: none;
   color: #fff;
+  min-height: 740px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 3s;
+}
+
+.cover__link:hover {
+  opacity: 0.8;
+  background-color: #2a2c2f;
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__link {
+    min-height: 200px;
+  }
 }

@@ -2,6 +2,7 @@
   color: #fff;
   margin-left: 18px;
   text-decoration: none;
+  transition: 1s;
 }
 
 .header__lang-link:hover {
